@@ -8,8 +8,19 @@
 </head>
 <body>
     <form>
-        
         <button disabled="disabled">This button is disabled</button>
+        <br>
+        <label for="numbers">Opening numbers:</label>
+        <input type="number" name="numbers" id="numbers" placeholder="1-100">
+        <br>
+        <label for="points">Points (between 1-100)</label>
+        <input type="range" name="points" id="points" min="1" max="100" step="2">
+        <br>
+        <label for="subcribe">We have already checked it for you!</label>
+        <input type="checkbox" name="subscribe" id="subscribe" checked>
+        <br>
+        <label for="birth_date">Please choose your birth date:</label>
+        <input type="date" name="birth_date" id="birth_date">
     </form>
     
 </body>
